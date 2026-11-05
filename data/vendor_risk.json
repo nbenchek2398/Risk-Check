@@ -1,0 +1,32 @@
+{
+  "name": "Third-Party & Vendor",
+  "description": "Due diligence, contract protections and ongoing monitoring of suppliers.",
+  "sections": [
+    {
+      "name": "Due Diligence",
+      "items": [
+        {"id": "VND-01", "text": "Vendor is tiered by criticality and data access", "severity": "High", "min_size": "Small", "guidance": "Depth of due diligence should match the tier."},
+        {"id": "VND-02", "text": "Financial stability of the vendor has been assessed", "severity": "Medium", "min_size": "Medium", "guidance": "Review credit reports or audited accounts for critical vendors."},
+        {"id": "VND-03", "text": "Security questionnaire or certification (e.g. ISO 27001, SOC 2) is reviewed", "severity": "High", "min_size": "Small", "guidance": "Follow up on any qualified opinions or exceptions."},
+        {"id": "VND-04", "text": "Sanctions and adverse media screening is completed", "severity": "Medium", "min_size": "Medium", "guidance": "Screen the vendor entity and its beneficial owners."}
+      ]
+    },
+    {
+      "name": "Contracts",
+      "items": [
+        {"id": "VND-05", "text": "Service levels and remedies are defined in the contract", "severity": "High", "min_size": "Small", "guidance": "Include measurable SLAs and service credits."},
+        {"id": "VND-06", "text": "Right to audit and security obligations are included", "severity": "Medium", "min_size": "Medium", "guidance": "Require notification of security incidents affecting your data."},
+        {"id": "VND-07", "text": "Exit plan and data return or deletion terms are agreed", "severity": "Medium", "min_size": "Small", "guidance": "Plan how services transition if the relationship ends."},
+        {"id": "VND-08", "text": "Liability caps and insurance cover are reviewed by legal", "severity": "Medium", "min_size": "Large", "guidance": "Ensure caps are proportionate to potential losses."}
+      ]
+    },
+    {
+      "name": "Ongoing Monitoring",
+      "items": [
+        {"id": "VND-09", "text": "Vendor performance is reviewed against SLAs regularly", "severity": "Medium", "min_size": "Small", "guidance": "Hold quarterly reviews for critical vendors."},
+        {"id": "VND-10", "text": "Fourth-party (sub-contractor) dependencies are known", "severity": "Low", "min_size": "Large", "guidance": "Ask critical vendors to disclose key sub-processors."},
+        {"id": "VND-11", "text": "Vendor risk assessments are refreshed on a defined cycle", "severity": "Low", "min_size": "Medium", "guidance": "Annually for critical vendors, every two to three years otherwise."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "IT Security",
+  "description": "Core controls for access, data protection, infrastructure hardening and incident response.",
+  "sections": [
+    {
+      "name": "Access Control",
+      "items": [
+        {"id": "SEC-01", "text": "Multi-factor authentication is enforced for all user and admin accounts", "severity": "High", "min_size": "Small", "guidance": "Prioritise email, VPN, cloud consoles and privileged accounts."},
+        {"id": "SEC-02", "text": "Access follows least privilege and is reviewed quarterly", "severity": "High", "min_size": "Small", "guidance": "Remove unused permissions and document review outcomes."},
+        {"id": "SEC-03", "text": "Joiner, mover and leaver process revokes access promptly", "severity": "High", "min_size": "Medium", "guidance": "Target same-day revocation for leavers."},
+        {"id": "SEC-04", "text": "Privileged access is managed through a PAM or vault solution", "severity": "Medium", "min_size": "Large", "guidance": "Rotate credentials and record privileged sessions."}
+      ]
+    },
+    {
+      "name": "Data Protection",
+      "items": [
+        {"id": "SEC-05", "text": "Sensitive data is encrypted at rest and in transit", "severity": "High", "min_size": "Small", "guidance": "Use TLS 1.2+ and platform-managed or customer-managed keys."},
+        {"id": "SEC-06", "text": "Backups are automated, encrypted and restore-tested", "severity": "High", "min_size": "Small", "guidance": "Keep at least one offline or immutable copy."},
+        {"id": "SEC-07", "text": "Data loss prevention rules cover high-risk channels", "severity": "Medium", "min_size": "Large", "guidance": "Start with email and cloud file sharing."}
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "items": [
+        {"id": "SEC-08", "text": "Systems are patched within defined SLAs", "severity": "High", "min_size": "Small", "guidance": "For example: critical within 14 days, high within 30 days."},
+        {"id": "SEC-09", "text": "Endpoint protection is deployed and monitored on all devices", "severity": "Medium", "min_size": "Small", "guidance": "Alert on devices that stop reporting."},
+        {"id": "SEC-10", "text": "Network is segmented to isolate critical systems", "severity": "Medium", "min_size": "Medium", "guidance": "Restrict lateral movement between user and server networks."},
+        {"id": "SEC-11", "text": "Vulnerability scans run at least monthly", "severity": "Medium", "min_size": "Medium", "guidance": "Track findings to closure with owners and due dates."}
+      ]
+    },
+    {
+      "name": "Incident Response",
+      "items": [
+        {"id": "SEC-12", "text": "Incident response plan is documented with named roles", "severity": "High", "min_size": "Small", "guidance": "Include contact details and decision authority."},
+        {"id": "SEC-13", "text": "Security logs are centralised and retained", "severity": "Medium", "min_size": "Medium", "guidance": "Retain at least 90 days searchable, longer in archive."},
+        {"id": "SEC-14", "text": "Incident response is exercised at least annually", "severity": "Low", "min_size": "Medium", "guidance": "Run a tabletop exercise and track lessons learned."}
+      ]
+    }
+  ]
+}

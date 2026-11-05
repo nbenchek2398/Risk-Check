@@ -1,0 +1,37 @@
+{
+  "name": "Data Privacy",
+  "description": "Personal data handling, lawful basis, individual rights and breach readiness.",
+  "sections": [
+    {
+      "name": "Data Inventory",
+      "items": [
+        {"id": "PRV-01", "text": "Personal data processed by the project is inventoried", "severity": "High", "min_size": "Small", "guidance": "Record data categories, sources, systems and recipients."},
+        {"id": "PRV-02", "text": "Special-category or sensitive data is identified and flagged", "severity": "High", "min_size": "Small", "guidance": "Health, biometric and financial data need additional safeguards."},
+        {"id": "PRV-03", "text": "Data flows, including cross-border transfers, are mapped", "severity": "Medium", "min_size": "Medium", "guidance": "Confirm a valid transfer mechanism for each international flow."}
+      ]
+    },
+    {
+      "name": "Lawful Basis & Transparency",
+      "items": [
+        {"id": "PRV-04", "text": "A lawful basis is documented for each processing purpose", "severity": "High", "min_size": "Small", "guidance": "Avoid relying on consent where another basis is more appropriate."},
+        {"id": "PRV-05", "text": "Privacy notice is updated to reflect the processing", "severity": "Medium", "min_size": "Small", "guidance": "Use plain language and publish before data collection begins."},
+        {"id": "PRV-06", "text": "A privacy impact assessment is completed for high-risk processing", "severity": "High", "min_size": "Medium", "guidance": "Consult the privacy officer before go-live."}
+      ]
+    },
+    {
+      "name": "Rights & Retention",
+      "items": [
+        {"id": "PRV-07", "text": "Process exists to handle access, correction and deletion requests", "severity": "Medium", "min_size": "Small", "guidance": "Track requests against statutory response deadlines."},
+        {"id": "PRV-08", "text": "Retention periods are defined and deletion is automated", "severity": "Medium", "min_size": "Medium", "guidance": "Keep data no longer than necessary for its purpose."},
+        {"id": "PRV-09", "text": "Data minimisation is applied to collection forms and logs", "severity": "Low", "min_size": "Small", "guidance": "Remove optional fields that are not needed."}
+      ]
+    },
+    {
+      "name": "Breach Readiness",
+      "items": [
+        {"id": "PRV-10", "text": "Breach notification procedure meets regulatory timelines", "severity": "High", "min_size": "Small", "guidance": "Some regimes require notification within 72 hours."},
+        {"id": "PRV-11", "text": "Processors are bound by data processing agreements", "severity": "High", "min_size": "Medium", "guidance": "Include breach notification and sub-processor obligations."}
+      ]
+    }
+  ]
+}

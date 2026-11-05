@@ -1,0 +1,40 @@
+{
+  "name": "Project Delivery",
+  "description": "Scope, schedule, resourcing and stakeholder risks that commonly derail projects.",
+  "sections": [
+    {
+      "name": "Scope & Requirements",
+      "items": [
+        {"id": "PRJ-01", "text": "Project objectives and success criteria are documented and signed off", "severity": "High", "min_size": "Small", "guidance": "Capture measurable outcomes and get sponsor approval before work starts."},
+        {"id": "PRJ-02", "text": "Scope boundaries and explicit exclusions are agreed", "severity": "High", "min_size": "Small", "guidance": "List what is out of scope to prevent scope creep later."},
+        {"id": "PRJ-03", "text": "A change control process is defined for scope changes", "severity": "Medium", "min_size": "Medium", "guidance": "Define who can approve changes and how impact on time and cost is assessed."},
+        {"id": "PRJ-04", "text": "Requirements are traceable to deliverables and acceptance tests", "severity": "Medium", "min_size": "Large", "guidance": "Maintain a traceability matrix linking each requirement to a test."}
+      ]
+    },
+    {
+      "name": "Schedule & Resources",
+      "items": [
+        {"id": "PRJ-05", "text": "Critical path and key milestones are identified", "severity": "High", "min_size": "Small", "guidance": "Highlight tasks with zero float and monitor them weekly."},
+        {"id": "PRJ-06", "text": "Key-person dependencies have named backups", "severity": "High", "min_size": "Medium", "guidance": "Avoid single points of failure for specialist skills."},
+        {"id": "PRJ-07", "text": "Schedule contingency is included for high-uncertainty work", "severity": "Medium", "min_size": "Small", "guidance": "Add buffer proportional to uncertainty rather than padding every task."},
+        {"id": "PRJ-08", "text": "External dependencies have owners and agreed delivery dates", "severity": "Medium", "min_size": "Medium", "guidance": "Track third-party and cross-team dependencies in the plan."}
+      ]
+    },
+    {
+      "name": "Stakeholders & Communication",
+      "items": [
+        {"id": "PRJ-09", "text": "Stakeholder map with roles and decision rights is maintained", "severity": "Medium", "min_size": "Medium", "guidance": "Use a RACI or similar to clarify who decides, who is consulted."},
+        {"id": "PRJ-10", "text": "Regular status reporting cadence is established", "severity": "Low", "min_size": "Small", "guidance": "Share progress, risks and decisions needed on a fixed schedule."},
+        {"id": "PRJ-11", "text": "Escalation path for blocked decisions is documented", "severity": "Medium", "min_size": "Small", "guidance": "Define time limits after which issues escalate automatically."}
+      ]
+    },
+    {
+      "name": "Budget",
+      "items": [
+        {"id": "PRJ-12", "text": "Budget baseline is approved with a contingency reserve", "severity": "High", "min_size": "Medium", "guidance": "Hold reserve separately and track drawdown against risks."},
+        {"id": "PRJ-13", "text": "Actual spend is reconciled against forecast monthly", "severity": "Medium", "min_size": "Medium", "guidance": "Investigate variances above an agreed threshold."},
+        {"id": "PRJ-14", "text": "Earned value or equivalent performance tracking is in place", "severity": "Low", "min_size": "Large", "guidance": "Compare planned value, earned value and actual cost."}
+      ]
+    }
+  ]
+}

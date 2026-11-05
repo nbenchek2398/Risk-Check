@@ -1,0 +1,37 @@
+{
+  "name": "Business Continuity",
+  "description": "Readiness to keep critical operations running through disruption.",
+  "sections": [
+    {
+      "name": "Impact Analysis",
+      "items": [
+        {"id": "BCP-01", "text": "Critical business processes and their owners are identified", "severity": "High", "min_size": "Small", "guidance": "Start with processes that affect customers or revenue."},
+        {"id": "BCP-02", "text": "Recovery time and recovery point objectives are set", "severity": "High", "min_size": "Small", "guidance": "Agree RTO and RPO with process owners, not just IT."},
+        {"id": "BCP-03", "text": "Dependencies on systems, people, sites and suppliers are mapped", "severity": "Medium", "min_size": "Medium", "guidance": "Identify single points of failure for each critical process."}
+      ]
+    },
+    {
+      "name": "Continuity Plans",
+      "items": [
+        {"id": "BCP-04", "text": "Continuity plans exist for each critical process", "severity": "High", "min_size": "Small", "guidance": "Keep plans short, action-oriented and accessible offline."},
+        {"id": "BCP-05", "text": "Alternate work arrangements are available", "severity": "Medium", "min_size": "Small", "guidance": "Confirm remote work capacity or an alternate site."},
+        {"id": "BCP-06", "text": "IT disaster recovery plan aligns with business RTOs", "severity": "High", "min_size": "Medium", "guidance": "Verify that recovery order matches business priorities."}
+      ]
+    },
+    {
+      "name": "Communication",
+      "items": [
+        {"id": "BCP-07", "text": "Emergency contact lists are current and accessible", "severity": "Medium", "min_size": "Small", "guidance": "Review contact details at least twice a year."},
+        {"id": "BCP-08", "text": "Crisis communication templates are prepared", "severity": "Low", "min_size": "Medium", "guidance": "Draft messages for staff, customers and regulators."}
+      ]
+    },
+    {
+      "name": "Testing & Maintenance",
+      "items": [
+        {"id": "BCP-09", "text": "Plans are tested at least annually", "severity": "Medium", "min_size": "Small", "guidance": "Alternate between tabletop exercises and live failover tests."},
+        {"id": "BCP-10", "text": "Test findings are tracked to closure", "severity": "Medium", "min_size": "Medium", "guidance": "Assign owners and due dates to every finding."},
+        {"id": "BCP-11", "text": "Plans are reviewed after major organisational changes", "severity": "Low", "min_size": "Large", "guidance": "Trigger a review after restructures, relocations or new systems."}
+      ]
+    }
+  ]
+}
