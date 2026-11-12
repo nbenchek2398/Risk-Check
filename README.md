@@ -1,5 +1,9 @@
 # Risk Checklist Generator
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://risk-checklist-generator.streamlit.app)
+
+**Live demo:** <https://risk-checklist-generator.streamlit.app>
+
 A Streamlit app that builds risk and control checklists from curated templates. It has two pages:
 
 - **Domain checklist** (default): pick a risk domain and, optionally, a framework, and the app generates a structured control checklist with framework references and example audit evidence.
